@@ -1,0 +1,15 @@
+alias thor='ls -thor'
+
+#Git Aliases
+alias gs='git status'
+alias gst='git stash'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gstc='git stash clear'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl='git lol'
+alias lg='git log'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gc='git checkout'

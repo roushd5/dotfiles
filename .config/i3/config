@@ -120,6 +120,7 @@ bindsym $mod+Shift+s exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.
 # Volume Control (Automatically unmutes)
 bindsym $mod+equal exec --no-startup-id amixer set Master 3+ && pactl set-sink-mute 0 0
 bindsym $mod+minus exec --no-startup-id amixer set Master 3- && pactl set-sink-mute 0 0
+bindsym $mod+Shift+equal exec --no-startup-id amixer -q set Master toggle
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
